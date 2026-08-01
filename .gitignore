@@ -1,0 +1,46 @@
+# === PROTECCION ===
+# Este archivo impide que se suban por accidente cosas que nunca deben
+# volverse publicas. No lo borres.
+
+# Llaves y secretos
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+config.local.*
+
+# Nada de proyectos de clientes dentro de este repositorio
+clientes/
+proyectos/
+*.sql
+*.dump
+*.sqlite
+*.db
+*.csv
+
+# Basura del sistema
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# Dependencias y compilados
+node_modules/
+.next/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales de Claude Code
+.claude/settings.local.json
